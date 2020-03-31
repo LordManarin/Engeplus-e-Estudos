@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>LOREM IPSUM</title>
+    <link rel="stylesheet" type="text/css" href="styles-CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="styles-CSS/contato.css">
+</head>
+<body>
+<div id="interface">
+    <header id="cabeca">
+        <hgroup>
+            <nav id="menu">
+                <h2>Menu</h2>
+                <ul type="square">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="midia.html"> MIDIA</a></li>
+                    <li><a href="https://www.lipsum.com" target="_blank">Crie</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Lorem_ipsum" target="_blank">Sobre</a></li>
+                    <li><a href="cadastro.html"> Cadastre-se!</a></li>
+                    <li><a href="https://www.google.com" target="_blank"> menu 6</a></li>
+                </ul>
+            </nav>
+            <h1> Lorem Ipsum</h1>
+        </hgroup>
+    </header>
+    <h2> Cadastre-se!</h2>
+    <form method="get" action="files-php/cadastro.php" id="iCadastro"  >
+        <fieldset id="cadastro">
+            <legend>Informe seus dados!</legend>
+            <p><label for="cnome">Nome</label><input type="text" name="tnome" id="cnome" size="20" maxlength="50" placeholder="Nome Completo"/></p>
+            <p><label for="cphone">Telefone </label><input type="text" name="tphone" id="cphone" size="20" maxlength="42" placeholder="Telefone com DDD"/></p>
+            <p><label for="cmail">Email </label><input type="email" name="tmail" id="cmail" size="20" maxlength="45" placeholder="email"/></p>
+            <p><label for="ccpf">CPF </label><input type="text" name="tcpf" id="ccpf" size="20" maxlength="14" placeholder="xxx.xxx.xxx-xx"/></p>
+            <div id="botao">
+                <input type="submit" name="Benviar" value="Enviar" class="enviar"/>
+            </div>
+        </fieldset>
+
+    </form>
+
+    <footer id="rodape">
+        <p>
+            TODOS OS DIREITOS RESERVADOS &copy 2019 - LOREM IPSUM COMPANY
+        </p>
+    </footer>
+</div>
+</body>
