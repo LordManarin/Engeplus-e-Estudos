@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+form {
+  width: 700px;
+  margin: auto;
+}
+input, textarea {
+  font-family:sans-serif;
+  font-weight: normal;
+  font-size: 15px;  
+}
+input:hover, textarea:hover {
+  background-color: #dddddd
+}
+h2{
+  text-align:center;
+}
+legend {
+  text-align: center;  
+}
+fieldset {
+  border-color: #cecece;
+  margin: 20px;
+}
+#botao {
+  text-align: center;
+}

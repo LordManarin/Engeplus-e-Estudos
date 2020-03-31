@@ -1,0 +1,180 @@
+@charset "UTF-8";
+                                                        /* corpo */
+   body {          
+        font-family: sans-serif, courier;
+        background-color: #dddddd;     
+        }    
+      div#interface {
+        width:1000px;
+        background-color: white;
+        margin: -20px auto 0px auto;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, .5);
+        padding: 10px 20px 0px 20px;
+      }
+                                                   /* cabeçalho */
+      header#cabeca {
+        border-bottom: 1px #606060 solid;
+        height: 120px;
+      }
+      header#cabeca h1 {
+        font-family:'Courier New', Courier, monospace, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        word-spacing: 1px;
+      }
+       p {
+        font: 15pt Sans-serif;
+        text-align: justify;
+        text-indent: 20pt;
+        line-height: 20pt;
+        }
+                                                   /* texto */             
+        }
+        h4 { 
+          font: normal 10pt Sans-serif;
+          line-height: 1pt;
+           }
+        section#corpo {
+          display: block;
+          width: 550px;
+          float: left;
+          border-right: 1px solid #606060;
+          padding-right: 30px; 
+        }
+        aside#lateral {
+          text-align: justify;
+          display: block;
+          width: 400px;
+          float: right;
+        }
+                                                    /* tabela */
+        table#news {
+          border: 1px solid #606060;
+          border-spacing: 0px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 30px;
+          box-shadow: 1px 1px 4px rgba(0,0,0, .5);
+        }        
+        table#news td {
+          border: 1px solid #606060;
+          padding: 10px;
+        }
+        table#news td.ce {
+          color: white;
+          background-color:#606060;
+          font-weight: bold;
+          
+        }
+        table#news td.cd {
+          background-color: #cecece;
+        }
+        table#news caption {
+          color: #888888;
+          font-size: 20pt;
+          font-weight: bolder;
+          margin-bottom: 5px;
+        }
+
+                                                    /* fotos */
+             /*imagem sobrepostas */
+        figure.imagem-sobre {
+          position: relative;
+          border: 4px solid rgb(211, 211, 211);
+          box-shadow: 1px 1px 4px black;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;          
+        }
+        figure.imagem-sobre img {
+          width: 100%;
+          height: 100%;          
+        }
+        figure.imagem-sobre figcaption{
+          opacity: 0;
+          text-align: center;
+          line-height: 330px;
+          position: absolute;
+          top: 0px;
+          background-color: rgba(0, 0, 0, .4);
+          color: white;
+          width: 100%;
+          height: 100%;          
+        }
+        figure.imagem-sobre:hover figcaption{
+          opacity: 1;
+        }
+                             /* imagem flutante */
+        figure.imagem-float {
+          float: left;
+          margin-left: 0px;
+          margin-right: 8px;
+          margin-bottom: 0px;         
+        }
+
+                                                    /* menus */ 
+
+        nav#menu {
+          display: block;
+          text-align: center;          
+        }
+        nav#menu ul {
+          list-style: none;
+          text-transform: uppercase;
+          position: relative;
+ 
+        }
+        nav#menu li {
+          display: inline-block;
+          background-color: #dddddd;
+          padding: 10px;
+          margin: 2px;
+          transition: background-color .5s;
+        }
+        nav#menu li:hover {
+          background-color: #606060;
+        }
+        nav#menu a {
+         color: black;
+         text-decoration: none;
+       }
+         nav#menu h2{
+         display:none;
+       }
+         nav#menu a:hover {
+         color: white;
+         text-decoration: underline
+       }
+
+                                                  /* hyperlink */
+
+        a:link {
+         text-decoration: none;
+         color: black;
+        }
+        a:visited {
+         text-decoration: none;
+         color: black;
+        }
+        a:hover {
+          text-decoration: underline;
+          color: black;
+        }
+
+                                                    /* rodape */
+
+        footer#rodape {
+          clear:both;
+          border-top: 1px solid #606060;
+          background-color: #dddddd          
+
+        }
+        footer#rodape p {
+          text-align: center;
+          padding-top: 0px;
+          padding-bottom: 20px;          
+        }
+                
+
+        
