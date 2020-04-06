@@ -23,7 +23,10 @@ $query = "INSERT INTO cadastro (nome, fone, email, cpf) VALUES ('$nome','$telefo
 
 $executar = mysqli_query($connect, $query);
 ?>
-    <a href="javascript:history.back()">Voltar</a>
+<script>
+  window.alert('Obrigado!')
+  history.go(-1);
+</script>
 </div>
 </body>
 </html>
